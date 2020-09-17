@@ -6,7 +6,7 @@
     <title>Webdev</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -15,14 +15,16 @@
       <div class="main-title">
         <!-- header-->
         <header class="main-header">
+          <!--navigation-bar-->
           <nav class="nav-bar">
             <ul class="nav-container">
-              <li class="nav-item nav-item-right">
+              <li class="nav-item nav-item-right nav-about">
                 <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item nav-item-right">
                 <a class="nav-link" href="#">Syllabus</a>
               </li>
+              <!--logo-->
               <li class="nav-item">
                 <a href="#"
                   ><img class="logo" src="./assets/logo.svg" alt="Логотип"
@@ -37,12 +39,55 @@
             </ul>
           </nav>
         </header>
-        <h1 class="topic">your life is WebDev</h1>
-        <p class="topic-description">
+        <h1 class="your-life-title">your life is WebDev</h1>
+        <p class="your-life-description">
           Whatever the approach to development may be, the final program must
           satisfy some fundamental properties
         </p>
+        <!--button-get-started-->
+        <form>
+          <button class="button button-main-page">
+            <span class="button-text">get started</span>
+          </button>
+        </form>
+        <!--social-links-->
+        <div class="social-links">
+          <a href="#" class="social-link"
+            ><img src="./assets/mail_fff.svg" alt="mail"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/facebook_fff.svg" alt="facebook"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/insta_fff.svg" alt="instagram"
+          /></a>
+          <a href="#" class="social-link"
+            ><img src="./assets/telegram_fff.svg" alt="telegram"
+          /></a>
+        </div>
       </div>
+      <!--block-section-smart-design-->
+      <section class="rappresent">
+        <div class="rappresent-content-block">
+          <h2 class="rappresent-title">
+            Rappresent your idea with a smart Design
+          </h2>
+          <p class="rappresent-text">
+            Tasks accompanying and related to programming include: testing,
+            debugging, source code maintenance,
+            <strong>implementation of build systems</strong> , and management of
+            derived artifacts, such as the machine code of computer programs.
+          </p>
+          <form>
+            <button class="button">
+              <span class="button-text">get started</span>
+            </button>
+          </form>
+        </div>
+        <div class="rappresent-content-img">
+          <img src="./assets/content-image-1.jpg" alt="Рабочий процесс" />
+        </div>
+      </section>
     </div>
   </body>
 </html>
