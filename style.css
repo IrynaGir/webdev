@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -166,4 +166,67 @@ body {
   width: 407px;
   height: 582px;
   margin-bottom: 139px;
+}
+/* our-community */
+
+.our-community-nav-items {
+  margin-top: 80px;
+  margin-right: 269px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* margin-right: 269px;
+  margin-left: 1252px; */
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.our-community-section {
+  display: flex;
+}
+.our-community-block {
+  width: 298px;
+  height: 175px;
+  margin-left: 269px;
+  margin-right: 139px;
+  padding-top: 55px;
+}
+.our-community-photo {
+  margin: 0 127px;
+  padding-bottom: 20px;
+}
+.our-community-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  color: #373737;
+  padding-bottom: 10px;
+}
+.our-community-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  color: #4e4e4e;
+}
+.slider-items {
+  width: 407px;
+  height: 244px;
+  margin-top: 20px;
+  margin-bottom: 140px;
+}
+.slider-item {
+  margin-right: 30px;
+}
+.slider-hidden {
+  overflow: hidden;
 }
