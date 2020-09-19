@@ -9,30 +9,29 @@ body {
 .wrapper {
   max-width: 1600px;
 }
+/* header */
 .main-title {
   background-image: url(./assets/bg-image-wrapper.jpg);
-  width: 100%;
   background-size: cover;
-  height: 744px;
+  max-width: 100%;
   height: 744px;
 }
 .nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
-  margin: 0;
 }
 .nav-item {
   list-style-type: none;
 }
 .nav-link {
+  font-style: normal;
+  font-weight: normal;
   text-decoration: none;
+  font-size: 14px;
+  line-height: 140%;
   color: #ffffff;
   opacity: 0.8;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 140%;
 }
 .nav-about {
   font-weight: 500;
@@ -51,45 +50,47 @@ body {
   padding: 25px 15px;
 }
 .nav-item-right {
-  padding-top: 38px;
-  padding-bottom: 38px;
   padding-right: 85px;
 }
 .nav-item-left {
   padding-left: 85px;
 }
+.webdev {
+  font-size: 1px;
+}
+/* your-life-title */
 .your-life-title {
-  padding-top: 136px;
-  padding-bottom: 20px;
-  margin: 0;
+  font-style: normal;
   font-weight: bold;
   font-size: 64px;
   line-height: 75px;
   align-items: center;
-  text-align: center;
+  margin: 0 435px;
+  width: 740px;
   letter-spacing: 4.5px;
   text-transform: uppercase;
   color: #ffffff;
+  padding-top: 130px;
+  padding-bottom: 20px;
 }
 .your-life-description {
-  margin: 0 auto;
-  padding-bottom: 30px;
+  width: 504px;
+  height: 50px;
+  margin: 0 548px;
+  height: 50px;
+  font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 140%;
+  line-height: 145%;
   text-align: center;
   color: #ffffff;
-  width: 504px;
-}
-
-.button-main-page {
-  margin-bottom: 183px;
-  position: absolute;
+  margin-bottom: 30px;
 }
 .button {
+  margin: 0 708px;
   border: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: center;
   padding: 15px 47px;
   width: 184px;
   height: 46px;
@@ -97,20 +98,18 @@ body {
   top: 406px;
   background: #00afdb;
 }
+.button-main-page {
+  margin-bottom: 183px;
+}
 .button-text {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
   flex: none;
   order: 0;
-  align-self: center;
-  margin: 0px 0px;
 }
 .button:hover {
   cursor: pointer;
@@ -118,115 +117,13 @@ body {
 }
 .social-links {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
+  justify-content: center;
+  margin: 0 715px;
   width: 170px;
-  height: 20px;
-  left: 715px;
-  top: 635px;
+}
+.social-link {
+  padding-right: 30px;
 }
 .social-link:hover {
   cursor: pointer;
-}
-
-/* block-section-smart-design */
-.rappresent {
-  display: flex;
-  margin-left: 268px;
-  margin-right: 268px;
-}
-.rappresent-content-block {
-  margin-top: 295px;
-  margin-right: 249px;
-  height: 233px;
-  width: 408px;
-}
-.rappresent-title {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #373737;
-  padding-bottom: 20px;
-}
-.rappresent-text {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 140%;
-  color: #4e4e4e;
-  width: 408px;
-  padding-bottom: 30px;
-}
-.rappresent-content-img {
-  margin-top: 121px;
-  width: 407px;
-  height: 582px;
-  margin-bottom: 139px;
-}
-/* our-community */
-
-.our-community-nav-items {
-  margin-top: 80px;
-  margin-right: 269px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  /* margin-right: 269px;
-  margin-left: 1252px; */
-}
-
-.arrow:hover {
-  cursor: pointer;
-}
-
-.our-community-section {
-  display: flex;
-}
-.our-community-block {
-  width: 298px;
-  height: 175px;
-  margin-left: 269px;
-  margin-right: 139px;
-  padding-top: 55px;
-}
-.our-community-photo {
-  margin: 0 127px;
-  padding-bottom: 20px;
-}
-.our-community-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 2.4px;
-  text-transform: uppercase;
-  color: #373737;
-  padding-bottom: 10px;
-}
-.our-community-text {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 140%;
-  text-align: center;
-  display: flex;
-  align-items: flex-end;
-  color: #4e4e4e;
-}
-.slider-items {
-  width: 407px;
-  height: 244px;
-  margin-top: 20px;
-  margin-bottom: 140px;
-}
-.slider-item {
-  margin-right: 30px;
-}
-.slider-hidden {
-  overflow: hidden;
 }
