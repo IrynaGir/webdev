@@ -312,3 +312,72 @@ body {
   cursor: pointer;
   background: #009cc2;
 }
+/* section-subscribe */
+.section-subscribe {
+  background-image: url(./assets/pexels-christina-morillo-1181675\ 1.jpg);
+  height: 524px;
+  max-width: 100%;
+}
+.subscribe-form {
+  width: 406px;
+  height: 104px;
+  margin: 0 auto;
+}
+.subscribe-label {
+  padding-top: 200px;
+  padding-bottom: 30px;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contact-form-input {
+  display: flex;
+  width: 406px;
+  height: 46px;
+}
+
+.button-check {
+  width: 66px;
+  height: 46px;
+  background: #00afdb;
+  background-image: url(./assets/fa-check.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0px;
+}
+.button-check:hover {
+  cursor: pointer;
+  background: #009cc2;
+  background-image: url(./assets/fa-check.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+}
+.email {
+  padding-left: 24px;
+  width: 340px;
+  height: 46px;
+  border: none;
+  background: #ffffff;
+  border-radius: 0px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #373737;
+}
+::placeholder {
+  color: #373737;
+  opacity: 0.5;
+}
