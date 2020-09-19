@@ -127,3 +127,54 @@ body {
 .social-link:hover {
   cursor: pointer;
 }
+/* block-section-rappresent */
+.rappresent {
+  display: flex;
+  margin: 120px 269px 140px 269px;
+}
+.rappresent-content-block {
+  height: 233px;
+  width: 408px;
+  margin-right: 247px;
+}
+.rappresent-title {
+  padding-top: 175px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  width: 369px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  padding-bottom: 20px;
+}
+.rappresent-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4e4e4e;
+  padding-bottom: 30px;
+  width: 408px;
+}
+.button-rappresent {
+  border: none;
+  display: flex;
+  flex-direction: center;
+  padding: 15px 47px;
+  width: 184px;
+  height: 46px;
+  left: 707px;
+  top: 406px;
+  background: #00afdb;
+}
+.button-rappresent:hover {
+  cursor: pointer;
+  background: #009cc2;
+}
+.rappresent-content-img {
+  width: 407px;
+  height: 582px;
+  size: cover;
+}
