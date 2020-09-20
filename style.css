@@ -8,11 +8,13 @@ body {
 }
 .wrapper {
   max-width: 1600px;
+  margin: 0 auto;
 }
 /* header */
 .main-title {
   background-image: url(./assets/bg-image-wrapper.jpg);
   background-size: cover;
+  background-position: center center;
   max-width: 100%;
   height: 744px;
 }
@@ -65,7 +67,7 @@ body {
   font-size: 64px;
   line-height: 75px;
   align-items: center;
-  margin: 0 435px;
+  margin: 0 auto;
   width: 740px;
   letter-spacing: 4.5px;
   text-transform: uppercase;
@@ -76,7 +78,7 @@ body {
 .your-life-description {
   width: 504px;
   height: 50px;
-  margin: 0 548px;
+  margin: 0 auto;
   height: 50px;
   font-style: normal;
   font-weight: normal;
@@ -87,7 +89,7 @@ body {
   margin-bottom: 30px;
 }
 .button {
-  margin: 0 708px;
+  margin: 0 auto;
   border: none;
   display: flex;
   flex-direction: center;
@@ -118,7 +120,7 @@ body {
 .social-links {
   display: flex;
   justify-content: center;
-  margin: 0 715px;
+  margin: 0 auto;
   width: 170px;
 }
 .social-link {
@@ -174,9 +176,9 @@ body {
   background: #009cc2;
 }
 .rappresent-content-img {
-  width: 407px;
-  height: 582px;
-  size: cover;
+  max-width: 407px;
+  max-height: 582px;
+  size: 100%;
 }
 /* our-community */
 .our-community {
@@ -205,11 +207,9 @@ body {
   line-height: 100%;
   color: #373737;
 }
-
 .arrow:hover {
   cursor: pointer;
 }
-
 .our-community-section {
   display: flex;
   margin-bottom: 140px;
@@ -343,7 +343,6 @@ body {
   width: 406px;
   height: 46px;
 }
-
 .button-check {
   width: 66px;
   height: 46px;
@@ -380,4 +379,142 @@ body {
 ::placeholder {
   color: #373737;
   opacity: 0.5;
+}
+/* section-download */
+.section-download {
+  height: 464px;
+  background-color: #f5f6f7;
+}
+.download-title {
+  text-align: center;
+  padding-top: 120px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #373737;
+  padding-bottom: 20px;
+}
+.download-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 483px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  align-items: center;
+  text-align: center;
+  color: #4e4e4e;
+  padding-bottom: 30px;
+}
+.buttons-application {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 402px;
+}
+.button-application-apple,
+.button-application-android {
+  width: 186px;
+  height: 46px;
+  display: flex;
+}
+.button-application-apple {
+  margin-right: 30px;
+}
+.link-application {
+  width: 127px;
+  height: 46px;
+  background: #00afdb;
+  border-radius: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+.link-application:hover {
+  cursor: pointer;
+  background: #009cc2;
+}
+.icon-apple {
+  width: 59px;
+  height: 46px;
+  background: #009cc2;
+  background-image: url(./assets/icon-apple.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0px;
+  align-self: center;
+}
+.icon-android {
+  width: 59px;
+  height: 46px;
+  background: #009cc2;
+  background-image: url(./assets/icon-android.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 0px;
+  align-self: center;
+}
+/* footer */
+.footer {
+  margin: 0;
+  background: #000000;
+  height: 184px;
+}
+.footer-links-container {
+  margin-left: 140px;
+  padding-top: 60px;
+}
+footer-item {
+  list-style-type: none;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+.footer-link,
+.footer-link-logo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-link-logo {
+  padding-left: 362px;
+  padding-right: 448px;
+}
+.footer-link {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.footer-link-border {
+  border-right: 1px solid #4e4e4e;
+}
+.copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #818181;
+  text-decoration: none;
+  list-style-type: none;
+}
+.footer-link:hover {
+  color: #009cc2;
 }
